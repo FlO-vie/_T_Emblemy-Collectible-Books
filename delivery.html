@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery - T_Emblemy</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url('images/Contact\ us.jpg'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="images/logo.png" alt="Book Title 1"></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="nineteenth-century.html">19th Century Books</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="delivery.html">Delivery</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <input type="text" placeholder="Search books..." aria-label="Search books">
+            <button type="submit">Search</button>
+        </div>
+    </header>
+
+    <main role="main">
+        <section id="delivery-info">
+            <h2>Delivery Information and Payment</h2>
+
+            <!-- Delivery Charges Table -->
+            <h4>Delivery Charges</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Destination</th>
+                        <th>Delivery Time</th>
+                        <th>Cost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>UK</td>
+                        <td>2-3 Business Days</td>
+                        <td>£5.00</td>
+                    </tr>
+                    <tr>
+                        <td>Europe</td>
+                        <td>5-7 Business Days</td>
+                        <td>£15.00</td>
+                    </tr>
+                    <tr>
+                        <td>USA/Canada</td>
+                        <td>7-10 Business Days</td>
+                        <td>£20.00</td>
+                    </tr>
+                    <tr>
+                        <td>Rest of the World</td>
+                        <td>10-14 Business Days</td>
+                        <td>£25.00</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Delivery Form -->
+            <form id="delivery-form" action="#" method="post">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required placeholder="Enter your location">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+                <label for="Book">Book:</label>
+                <input type="text" id="Book" name="Book" required placeholder="Enter the name of the book">
+
+                <label for="card-number">Visa Card Number:</label>
+                <input type="text" id="card-number" name="card-number" required placeholder="Enter your Visa card number">
+
+                
+            </form>
+            <p> </p>
+            <button type="submit" class="cta-button">Submit Payment</button>
+        </section>
+        <div class="social-links">
+            <a href='https://www.instagram.com/'><img src="images/instagram.png" alt="Instagram"></a>
+            <a href='https://www.facebook.com/'><img src="images/facebook.png" alt="Facebook"></a>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 T_Emblemy Collectible Books |
+            <a href="#privacy-policy">Privacy Policy</a> |
+            <a href="#terms-of-service">Terms of Service</a></p>
+    </footer>
+
+    <!-- Optional JavaScript for interactivity -->
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books - T_Emblemy</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url('images/thilak-mohan-C0eMifpRfQE-unsplash.jpg'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><img src="images/logo.png" alt="Book Title 1"></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="nineteenth-century.html">19th Century Books</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="delivery.html">Delivery</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <input type="text" placeholder="Search books..." aria-label="Search books">
+            <button type="submit">Search</button>
+        </div>
+    </header>
+    
+<main role="main">
+    <section id="book-list">
+        <div class="book-list"><h2>Our Collection of Books</h2></div>
+        <p></p>
+        <div class="book-list"><h3>Rarest Book</h3></div>
+        <div class="book-list">
+            <!-- Example book entries -->
+            <article class="book">
+                <img src="images/animal farm.jpg" alt="Book Title 1">
+                <h3>Animal Farm</h3>
+                <p>Author: GEORGE ORWELL </p>
+                <p>Price: £25.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </article>
+
+            <article class="book">
+                <img src="images/the alchemist.jpg" alt="Book Title 1">
+                <h3>The Alchemist</h3>
+                <p>Author: PAULO COELHO</p>
+                <p>Price: £22.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </article>
+
+            <article class="book">
+                <img src="images/Venus.jpg" alt="Book Title 1">
+                <h3>Venus and Adonis</h3>
+                <p>Author: WILLIAM SHAKESPEARE</p>
+                <p>Price: £25.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </article>
+
+        </div>
+        <div class="book-list"><h3>BEST SELLERS</h3></div>
+        <div class="book-list">
+
+            <article class="book">
+                <img src="images/power.jpg" alt="Book Title 2">
+                <h3>48 Law of Power</h3>
+                <p>Author: ROBERT GREENE</p>
+                <p>Price: £15.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </article>
+
+            <article class="book">
+                <img src="images/art of war.jpg" alt="Book Title 2">
+                <h3>The Art of War</h3>
+                <p>Author: SUN TZU</p>
+                <p>Price: £20.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </article>
+        </div>
+        <div class="book-list"><h3>19TH CENTURY BOOK</h3></div>
+        <div class="book-list">
+            <article class="book">
+                <img src="images/Pride and Prejudice.jpg" alt="Book X Title">
+                <h3>Pride and Prejudice</h3>
+                <p>Author: JANE AUSTEN</p>
+                <p>Price: £15.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </article>
+
+            <article class="book">
+                <img src="images/Frankenstein.jpg" alt="Book Y Title">
+                <h3>Frankenstein</h3>
+                <p>Author: MARY WOLLSTONECRAFT SHELLEY</p>
+                <p>Price: £20.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </article>
+
+            <article class="book">
+                <img src="images/Wuthering Heights.jpg" alt="Book Z Title">
+                <h3>Wuthering Heights</h3>
+                <p>Author: EMILY BRONTE</p>
+                <p>Price: £30.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </article>
+
+            <article class="book">
+                <img src="images/Oliver Twist.jpg" alt="Book A Title">
+                <h3>Oliver Twist</h3>
+                <p>Author: CHARLES DICKENS</p>
+                <p>Price: £25.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </article>
+        </div>
+            <div id='more-books' style='display:none;'>
+                <!-- Add more book entries here when loading -->
+            </div>
+       
+    </section>
+    <div class="social-links">
+        <a href='https://www.instagram.com/'><img src="images/instagram.png" alt="Instagram"></a>
+        <a href='https://www.facebook.com/'><img src="images/facebook.png" alt="Facebook"></a>
+    </div>
+    
+</main>
+
+<footer>
+    &copy; 2025 T_Emblemy Collectible Books |
+    <a href="#privacy-policy">Privacy Policy</a> |
+    <a href="#terms-of-service">Terms of Service</a> |
+    <a href="#contact-us">Contact Us</a> |
+    <a href="#delivery-info">Delivery Info</a> |
+    <a href="#faq">FAQ</a> |
+    <a href="#about-us">About Us</a> |
+    <a href="#terms-and-conditions">Terms and Conditions</a> |
+    <a href="#returns-policy">Returns Policy</a> |
+    <a href="#shipping-policy">Shipping Policy</a>
+</footer>
+
+<script>
+// Functionality for loading more books can be implemented here
+function loadMore() {
+    // Logic for loading more books dynamically
+    alert('Loading more books...');
+}
+
+// Functionality to handle clicks on add-to-cart buttons could also be added.
+document.querySelectorAll('.add-to-cart').forEach(button => {
+    button.addEventListener('click', () => {
+        alert("Added to cart!");
+    });
+});
+</script>
+
+<script src="main.js"></script>
+</body>
+</html>

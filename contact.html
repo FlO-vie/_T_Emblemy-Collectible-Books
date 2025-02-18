@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - T_Emblemy</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url('images/Contact\ us.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><img src="images/logo.png" alt="Book Title 1"></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="nineteenth-century.html">19th Century Books</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="delivery.html">Delivery</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <input type="text" placeholder="Search books..." aria-label="Search books">
+            <button type="submit">Search</button>
+        </div>
+    </header>
+    
+<main role="main">
+    <section id="contact-form">
+        <h2>Get in Touch with Us</h2>
+        <p>Our dedicated customer service team is here to assist you with any questions or concerns you may have. Whether you need help with an order, have a product inquiry, 
+            or require technical support, we are happy to assist you. Please fill out the form below with your details and message, and one of our representatives will get back
+             to you as soon as possible. We strive to provide prompt and helpful responses to ensure your satisfaction.You can also reach us via phone at 020 7946 0234 or visit our warehouse at Mile End, London.
+             <br>Thank you for reaching out—we look forward to assisting you!</p>
+
+        <form action="#" method="post" role="form" id="contact-form" aria-labelledby="contact-form-title">
+            <label for="title">Title:</label>
+            <select id="title" name="title" required>
+                <option value="mr">Mr.</option>
+                <option value="mrs">Mrs.</option>
+                <option value="miss">Miss.</option>
+                <option value="ms">Ms.</option>
+                <option value="dr">Dr.</option>
+                <option value="prof">Prof.</option>
+            </select>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="query">Nature of Query:</label>
+            <select id="query" name="query" required>
+                <option value="buy">Buy books</option>
+                <option value="sell">Sell books</option>
+                <option value="return">Return a book</option>
+                <option value="delivery">Delivery</option>
+                <option value="complaint">Complaint</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="cta-button">Submit Inquiry</button>
+        </form>
+
+        
+        <div class="social-links">
+            <a href='https://www.instagram.com/'><img src="images/instagram.png" alt="Instagram"></a>
+            <a href='https://www.facebook.com/'><img src="images/facebook.png" alt="Facebook"></a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 T_Emblemy Collectible Books |
+        <a href="#privacy-policy">Privacy Policy</a> |
+        <a href="#terms-of-service">Terms of Service</a></p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
